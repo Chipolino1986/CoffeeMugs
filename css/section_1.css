@@ -1,0 +1,68 @@
+.container {
+    max-width: calc(300px + (1380 - 300) * ((100vw - 320px) / (1440 - 320)));
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    background-color: #050827;
+}
+.container_content {
+    max-width: calc(300px + (940 - 300) * ((100vw - 320px) / (1440 - 320)));
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_content img {
+    position: relative;
+    object-fit: inherit;
+    max-width: calc(300px + (940 - 300) * ((100vw - 320px) / (1440 - 320)));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_and_text_block {
+    max-width: calc(300px + (793 - 300) * ((100vw - 320px) / (1440 - 320)));
+    /* outline: 1px solid yellow; */
+    position: absolute;
+    align-items: center;
+}
+.title_and_text_block p:nth-child(1) {
+    font-family: 'Karla', sans-serif;
+    font-size: calc(10px + (12 - 10) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 18px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.title_and_text_block p:nth-child(2) {
+    font-family: 'Karla', sans-serif;
+    font-size: calc(30px + (47 - 30) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    margin-top: calc(0px + (10 - 0) * ((100vw - 320px) / (1440 - 320)));
+}
+.title_and_text_block p:nth-child(3) {
+    font-family: 'Karla', sans-serif;
+    font-size: calc(6px + (17 - 6) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: calc(0px + (10 - 0) * ((100vw - 320px) / (1440 - 320)));
+}
+.title_and_text_block p:nth-child(4) {
+    max-width: calc(150px + (231 - 150) * ((100vw - 320px) / (1440 - 320)));
+    font-family: 'Karla', sans-serif;
+    font-size: calc(8px + (12 - 8) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 18px;
+    color: #1D1F2E;
+    text-align: center;
+    margin: 48px auto;
+    margin-bottom: 0;
+    margin-top: calc(20px + (48 - 20) * ((100vw - 320px) / (1440 - 320)));
+    padding-right: calc(10px + (24 - 10) * ((100vw - 320px) / (1440 - 320)));
+    padding-left: calc(10px + (24 - 10) * ((100vw - 320px) / (1440 - 320)));
+    background-color: white;
+    letter-spacing: 2px;
+}

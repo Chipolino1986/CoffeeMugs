@@ -1,0 +1,8 @@
+.main_wrapper {
+    /* max-width: calc(300px + (1440 - 300) * ((100vw - 320px) / (1440 - 320))); */
+    /* outline: 1px solid red; */
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
